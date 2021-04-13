@@ -1,0 +1,30 @@
+{
+  "name": "compass-test-assignment",
+  "version": "1.0.0",
+  "description": "Test Assignment",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-vovk/compass.git"
+  },
+  "author": "Bogdan Vovk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-vovk/compass/issues"
+  },
+  "homepage": "https://github.com/b-vovk/compass#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.24.0",
+    "mocha": "^8.3.2",
+    "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "fetch-defaults": "^1.0.0"
+  }
+}
