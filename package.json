@@ -1,12 +1,12 @@
 {
   "name": "compass-test-assignment",
   "version": "1.0.0",
-  "description": "Test Assignment",
+  "description": "Test assignment",
   "main": "index.js",
   "scripts": {
+    "test": "mocha",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "test": "mocha"
+    "lint:fix": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,12 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "mocha": "^8.3.2",
     "node-fetch": "^2.6.1"
   },
   "dependencies": {
-    "fetch-defaults": "^1.0.0"
+    "eslint-config-airbnb": "^18.2.1"
   }
 }
