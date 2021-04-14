@@ -13,7 +13,7 @@ $ npm i
 
 ## Running tests
 
-1. Run the test:
+To run the tests, use:
 
 ```sh
 $ npm test
